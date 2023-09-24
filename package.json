@@ -1,0 +1,24 @@
+{
+  "name": "a-bad-website",
+  "version": "1.0.0",
+  "description": "\"# a-bad-website\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacqueline-chao/a-bad-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacqueline-chao/a-bad-website/issues"
+  },
+  "homepage": "https://github.com/jacqueline-chao/a-bad-website#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
