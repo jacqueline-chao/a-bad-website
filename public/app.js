@@ -11,7 +11,7 @@ submit_button.addEventListener('submit', function (e) {
     const answer_5 = document.getElementById("answer-5").value;
     const answer_6 = document.getElementById("answer-6");
 
-    const acceptable_seqs_nums = ['9356021', '2398492', '8768767', '0948756', '1098745']
+    const acceptable_seqs_nums = ['93560219438538931189838434857321', '23984929348509349892935375298222', '87687679082989490987824342818735', '09487569485392488775799509436567', '10987452983488231769382658398365']
 
     if (answer_1 == "your name" && answer_2 == "red" && answer_3 == "Fakecapitalia" && acceptable_seqs_nums.includes(answer_4) && answer_5 == "I live on the planet Earth." && answer_6.checked) {
         document.getElementById("results-section").innerText = "You did it!";
