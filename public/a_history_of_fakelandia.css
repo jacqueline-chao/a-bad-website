@@ -1,4 +1,9 @@
+@font-face {
+    font-family: Beautiful_Friends;
+    src: url(../fonts/Beautiful\ Friends.ttf);
+}
+
 h1, h2, p {
     text-align: center;
-    font-family: 'Beautiful Friends';
+    font-family: Beautiful_Friends;
 }
